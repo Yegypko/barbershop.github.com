@@ -9,7 +9,7 @@ body{
 	margin: 0;
 	padding: 0;
 	background-color: black;
-	background-image: url('barbershop - index.jpg');
+	background-image: url('../img/barbershop - index.jpg');
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: 1800 px auto;
@@ -77,8 +77,8 @@ body{
 	padding: 55px 80px;
 	color: black;
 	background:
-	url("img/index-content-shadow.png") no-repeat center,
-	 #f8f5f2 url("img/pattern-white.jpg");
+	url("../img/index-content-shadow.png") no-repeat center,
+	 #f8f5f2 url("../img/pattern-white.jpg");
 }
 .content-column-left,
 .content-column-right{
@@ -202,8 +202,8 @@ body{
 	margin-top: 60px;
 	color: white;
 
-	background: url("img/shadow.png")no-repeat top, 
-	#252525 url("img/1pattern-black.jpg");
+	background: url("../img/shadow.png")no-repeat top, 
+	#252525 url("../img/1pattern-black.jpg");
 
 }
 .footer-contacts{
@@ -239,7 +239,7 @@ body{
 	font-size: 0;
 	text-decoration: none;
 
-	background: #000 url("img/spritesheet.png") no-repeat;
+	background: #000 url("../img/spritesheet.png") no-repeat;
 	background-position: center;
 }
 img{
@@ -350,7 +350,7 @@ img{
 	height: 18px;
 	top: 28px;
 	left: 20px;
-	background: transparent url("img/spritesheet.png") no-repeat;
+	background: transparent url("../img/spritesheet.png") no-repeat;
 	background-position: -10px -46px;
 }
 .login:hover:before{
@@ -413,7 +413,7 @@ img{
 	display: none;
 	
 	color: black;
-	background: #f8f5f2 url("img/pattern-white.jpg");
+	background: #f8f5f2 url("../img/pattern-white.jpg");
 	box-shadow: 0 30px 50px rgba(0, 0, 0, .7);
 }
 @keyframes bounce {
@@ -438,7 +438,7 @@ img{
 
 	font-size: 0;
 	cursor: pointer;
-	background: url("img/cross.png") no-repeat center;
+	background: url("../img/cross.png") no-repeat center;
 }
 .modal-content h2{
 	margin: 0;
@@ -478,12 +478,12 @@ img{
 	border-color: #663d15;
 }
 .login-form input.iconUser {
-	background: url("img/user.png") no-repeat;
+	background: url("../img/user.png") no-repeat;
 	background-position: 95% 50%;
 
 }
 .login-form input.icon-password {
-	background: url("img/locked.png") no-repeat;
+	background: url("../img/locked.png") no-repeat;
 	background-position: 95% 50%;
 	
 }
@@ -509,7 +509,7 @@ img{
 	margin-top: -287.5px;
 	border: 7px solid white;
 
-	background: #e9e5dc url("img/map.png");
+	background: #e9e5dc url("../img/map.png");
 	box-shadow: 0 30px 50px rgba(0, 0, 0, .7);
 }
 #interactiveMap{
@@ -568,7 +568,7 @@ td:nth-child(2n) {
 	margin-top: 100px;
 	margin-bottom: 70px;
 
-	background: url("img/stick.png") no-repeat left, url("img/stick.png") no-repeat right;
+	background: url("../img/stick.png") no-repeat left, url("../img/stick.png") no-repeat right;
 
 }
 .aboutUs{
@@ -583,7 +583,7 @@ td:nth-child(2n) {
 	margin-left: 85px;
 }
 .body{
-	background: #f8f5f2 url("img/pattern-white.jpg");
+	background: #f8f5f2 url("../img/pattern-white.jpg");
 	color: #000;
 
 }
@@ -741,7 +741,7 @@ input[type="checkbox"] + label::before{
 	display: block;
 	width: 20px;
 	height: 20px;
-	background: url("img/spritesheet.png") no-repeat;
+	background: url("../img/spritesheet.png") no-repeat;
 	background-position: -10px -82px;
 	position: absolute;
 	top: 0;
@@ -770,7 +770,7 @@ input[type="radio"] + label::before{
 	display: block;
 	width: 20px;
 	height: 20px;
-	background: url("img/spritesheet.png") no-repeat;
+	background: url("../img/spritesheet.png") no-repeat;
 	background-position: -10px -122px;
 	position: absolute;
 	top: 0;
@@ -801,36 +801,36 @@ input[type="radio"]:checked + label::before{
 	margin-top: 30px;
 }
 .bg1Large{
-	background-image: url("img/набор для путешествий_1_large.jpg");
+	background-image: url("../img/набор для путешествий_1_large.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .bg2Large{
-	background-image: url("img/набор для путешествий_2_large.jpg");
+	background-image: url("../img/набор для путешествий_2_large.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .bg3Large{
-	background-image: url("img/набор для путешествий_3_large.jpg");
+	background-image: url("../img/набор для путешествий_3_large.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .bg1Small{
-	background-image: url("img/набор для путешествий_1_small.jpg");
+	background-image: url("../img/набор для путешествий_1_small.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	cursor: pointer;
 	
 }
 .bg2Small{
-	background-image: url("img/набор для путешествий_2_small.jpg");
+	background-image: url("../img/набор для путешествий_2_small.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	cursor: pointer;
 	
 }
 .bg3Small{
-	background-image: url("img/набор для путешествий_3_small.jpg");
+	background-image: url("../img/набор для путешествий_3_small.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	cursor: pointer;
@@ -868,33 +868,6 @@ input[type="radio"]:checked + label::before{
 	display: inline-block;
 	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
 }
-
-/*.fhoto-goods div{
-	margin-right: 16px;
-	margin-top: 16px;
-}
-.fhoto-goods div:last-child{
-	margin-right: 0px;
-}
-.fhoto-goods div:first-child{
-	margin-right: 0px;
-	margin-top: 0px;
-}*/
-
-
-
-/*.fhoto-goods img{
-	margin-right: 16px;
-	margin-top: 16px;
-}
-.fhoto-goods img:last-child{
-	margin-right: 0px;
-}
-.fhoto-goods img:first-child{
-	margin-right: 0px;
-	margin-top: 0px;
-}*/
-
 
 
 
